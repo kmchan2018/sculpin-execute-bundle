@@ -79,9 +79,9 @@ created processes like this:
 ```yaml
 
 sculpin_execute:
-	environment:
-		- { name: "VAR1", value: "value1" }
-		- { name: "VAR2", value: false }
+    environment:
+        - { name: "VAR1", value: "value1" }
+        - { name: "VAR2", value: false }
 
 ```
 
