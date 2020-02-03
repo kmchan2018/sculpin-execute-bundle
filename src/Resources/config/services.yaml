@@ -1,0 +1,7 @@
+
+services:
+    sculpin_execute.twig_extension:
+        class: Kmchan\Sculpin\ExecuteBundle\Twig\ExecuteExtension
+        tags:
+            - name: 'twig.extension'
+
